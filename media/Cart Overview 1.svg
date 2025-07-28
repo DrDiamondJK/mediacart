@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.20167in" height="5.28502in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1688.86 1088.28"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#ED3237;stroke-width:5.49;stroke-miterlimit:2.61313}
+    .str2 {stroke:#00A859;stroke-width:5.49;stroke-miterlimit:2.61313}
+    .str3 {stroke:#3E4095;stroke-width:5.49;stroke-miterlimit:2.61313}
+    .str0 {stroke:#FEFEFE;stroke-width:10.98;stroke-miterlimit:2.61313}
+    .fil1 {fill:none}
+    .fil0 {fill:#FEFEFE}
+    .fil2 {fill:#ED3237}
+    .fil3 {fill:#00A859}
+    .fil4 {fill:#3E4095}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2062181094848">
+   <circle class="fil0 str0" cx="17.33" cy="338.22" r="11.84"/>
+   <polyline class="fil1 str0" points="17.33,338.22 1069.23,338.22 1069.23,17.33 1450.17,17.33 "/>
+   <circle class="fil0 str0" cx="1451.72" cy="17.33" r="11.84"/>
+  </g>
+  <g id="_2062181093952">
+   <polyline class="fil1 str0" points="789.52,526.98 1149.88,526.98 1149.88,353.66 1671.53,353.66 "/>
+   <polyline class="fil1 str0" points="1149.88,526.98 1149.88,851.3 1378.1,851.3 "/>
+   <circle class="fil0 str0" cx="789.52" cy="526.98" r="11.84"/>
+   <circle class="fil0 str0" cx="1671.53" cy="353.66" r="11.84"/>
+   <circle class="fil0 str0" cx="1378.1" cy="851.3" r="11.84"/>
+  </g>
+  <g id="_2062181096640">
+   <polyline class="fil1 str0" points="619.64,827.28 1031.47,827.28 1031.47,1070.94 "/>
+   <circle class="fil0 str0" cx="619.64" cy="827.28" r="11.84"/>
+   <circle class="fil0 str0" cx="1031.47" cy="1070.94" r="11.84"/>
+  </g>
+  <g id="_2062181096032">
+   <circle class="fil2 str1" cx="17.33" cy="338.22" r="11.84"/>
+   <polyline class="fil1 str1" points="17.33,338.22 1069.23,338.22 1069.23,17.33 1450.17,17.33 "/>
+   <circle class="fil2 str1" cx="1451.72" cy="17.33" r="11.84"/>
+  </g>
+  <g id="_2062181097312">
+   <polyline class="fil1 str2" points="789.52,526.98 1149.88,526.98 1149.88,353.66 1671.53,353.66 "/>
+   <polyline class="fil1 str2" points="1149.88,526.98 1149.88,851.3 1378.1,851.3 "/>
+   <circle class="fil3 str2" cx="789.52" cy="526.98" r="11.84"/>
+   <circle class="fil3 str2" cx="1671.53" cy="353.66" r="11.84"/>
+   <circle class="fil3 str2" cx="1378.1" cy="851.3" r="11.84"/>
+  </g>
+  <g id="_2062181099264">
+   <polyline class="fil1 str3" points="619.64,827.28 1031.47,827.28 1031.47,1070.94 "/>
+   <circle class="fil4 str3" cx="619.64" cy="827.28" r="11.84"/>
+   <circle class="fil4 str3" cx="1031.47" cy="1070.94" r="11.84"/>
+  </g>
+ </g>
+</svg>

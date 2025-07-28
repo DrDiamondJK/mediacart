@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.460756in" height="0.740677in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2.4 3.87"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="637" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="Swis721 BT">
+		<font-face-src>
+			<font-face-name name="Swis721 BT Roman"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="O" horiz-adv-x="773" d="M146.999 358.995c0,-92.1611 21.1653,-164.161 63.673,-216.165 42.4959,-51.8266 101.326,-77.8343 176.491,-77.8343 74.9997,0 133.499,26.0078 175.665,77.8343 42.177,52.0037 63.1769,124.003 63.1769,216.165 0,92.5036 -20.9999,164.669 -63.1769,216.342 -42.1652,51.8266 -100.665,77.669 -175.665,77.669 -75.1651,0 -133.996,-25.8424 -176.491,-77.669 -42.5077,-51.673 -63.673,-123.838 -63.673,-216.342zm-100.996 0c0,118.842 30.1652,211.676 90.4957,278.668 60.4958,66.8383 143.999,100.334 250.664,100.334 106.5,0 189.672,-33.3306 249.838,-100.169 59.9998,-66.6612 89.9996,-159.661 89.9996,-278.834 0,-118.83 -29.9999,-211.665 -89.9996,-278.656 -60.1651,-66.8383 -143.338,-100.334 -249.838,-100.334 -106.665,0 -190.169,33.4959 -250.664,100.334 -60.3305,66.9919 -90.4957,159.826 -90.4957,278.656z"/>
+   <glyph unicode="K" horiz-adv-x="638" d="M76.9958 0l0 719.005 97.0036 0 0 -347.007 346.168 347.007 129.838 0 -293.833 -288.011 301.83 -430.994 -121.003 0 -251.668 360.672 -111.33 -108.838 0 -251.834 -97.0036 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Swis721 BT";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str0 {stroke:#373435;stroke-width:0.07;stroke-miterlimit:2.61313}
+    .fil1 {fill:none}
+    .fil0 {fill:#373435}
+    .fil2 {fill:#373435}
+    .fnt0 {font-weight:normal;font-size:1.74px;font-family:'Swis721 BT'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2385885969872">
+   <text x="-0.08" y="1.28"  class="fil0 fnt0">O</text>
+   <text x="1.26" y="1.28"  class="fil0 fnt0">K</text>
+   <circle class="fil1 str0" cx="1.2" cy="3" r="0.83"/>
+   <circle class="fil2 str0" cx="1.2" cy="3" r="0.26"/>
+  </g>
+ </g>
+</svg>
