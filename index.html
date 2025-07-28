@@ -76,36 +76,26 @@
             padding-bottom: 80px;
         }
         
-        .image-placeholder {
-            width: 280px;
+        .page img {
             max-width: 90vw;
-            height: 200px;
-            background: #e9ecef;
-            border: 2px dashed #adb5bd;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 15px 0;
+            object-fit: contain;
             border-radius: 8px;
-            font-size: 0.8em;
-            color: #6c757d;
-            text-align: center;
-            padding: 10px;
-            line-height: 1.3;
+            margin: 15px 0;
         }
         
         .large-image {
-            height: 280px;
+            max-height: 280px;
+            max-width: 280px;
         }
         
         .medium-image {
-            width: 150px;
-            height: 150px;
+            max-height: 150px;
+            max-width: 150px;
         }
         
         .small-image {
-            width: 100px;
-            height: 100px;
+            max-height: 100px;
+            max-width: 100px;
         }
         
         .navigation {
@@ -192,21 +182,10 @@
             margin: 15px 0;
         }
         
-        .form-placeholder {
-            width: 320px;
-            max-width: 95vw;
-            height: 180px;
-            background: #f8f9fa;
-            border: 2px solid #dee2e6;
-            border-radius: 8px;
-            margin: 15px 0;
-            display: flex;
+        .inline-print {
+            display: inline-flex;
             align-items: center;
-            justify-content: center;
-            font-size: 0.9em;
-            color: #6c757d;
-            text-align: center;
-            padding: 15px;
+            gap: 5px;
         }
         
         /* Responsive adjustments for smaller screens */
@@ -225,19 +204,12 @@
                 margin-bottom: 15px;
             }
             
-            .image-placeholder {
-                height: 160px;
-                margin: 10px 0;
-                font-size: 0.75em;
-            }
-            
             .large-image {
-                height: 220px;
+                max-height: 220px;
             }
             
             .medium-image {
-                width: 120px;
-                height: 120px;
+                max-height: 120px;
             }
             
             .content {
@@ -246,28 +218,16 @@
         }
         
         @media (max-height: 568px) {
-            .image-placeholder {
-                height: 120px;
-                margin: 8px 0;
-                font-size: 0.7em;
-            }
-            
             .large-image {
-                height: 180px;
+                max-height: 180px;
             }
             
             .small-image {
-                width: 80px;
-                height: 80px;
+                max-height: 80px;
             }
             
             .medium-image {
-                width: 100px;
-                height: 100px;
-            }
-            
-            .form-placeholder {
-                height: 140px;
+                max-height: 100px;
             }
         }
     </style>
@@ -279,10 +239,7 @@
             <div class="content">
                 <h1>CCHMC Liberty OR</h1>
                 <h2>Portable Video Cart Setup Instructions</h2>
-                <div class="image-placeholder large-image">
-                    Computer and monitor on cart
-                    <br>(media/image1.jpeg)
-                </div>
+                <img src="media/Mario Cart.jpg" alt="Computer and monitor on cart" class="large-image">
             </div>
         </div>
         
@@ -291,10 +248,7 @@
             <div class="content">
                 <h2>Step 1</h2>
                 <h3>Plug in the power cable</h3>
-                <div class="image-placeholder large-image">
-                    Computer and electrical outlet
-                    <br>(media/image2.jpeg)
-                </div>
+                <img src="media/Cart Power.jpg" alt="Computer and electrical outlet" class="large-image">
             </div>
         </div>
         
@@ -303,10 +257,7 @@
             <div class="content">
                 <h2>Step 2</h2>
                 <h3>Plug in the SDI cable</h3>
-                <div class="image-placeholder large-image">
-                    Medical equipment with computer
-                    <br>(media/image3.jpeg)
-                </div>
+                <img src="media/Cart Video.jpg" alt="Medical equipment with computer" class="large-image">
             </div>
         </div>
         
@@ -315,10 +266,7 @@
             <div class="content">
                 <h2>Step 3</h2>
                 <h3>Plug in the Data cable</h3>
-                <div class="image-placeholder large-image">
-                    Computer with screen and monitor
-                    <br>(media/image4.jpeg)
-                </div>
+                <img src="media/Cart Data.jpg" alt="Computer with screen and monitor" class="large-image">
             </div>
         </div>
         
@@ -328,10 +276,7 @@
                 <h2>Step 4</h2>
                 <h3>Power on the Cart</h3>
                 <div class="step-text">Press</div>
-                <div class="image-placeholder medium-image">
-                    Power button
-                    <br>(media/image5.png)
-                </div>
+                <img src="media/Power Button.svg" alt="Power button" class="medium-image">
             </div>
         </div>
         
@@ -355,27 +300,18 @@
                 <ol class="numbered-list">
                     <li>On Cart Monitor press</li>
                 </ol>
-                <div class="image-placeholder small-image">
-                    Button
-                    <br>(media/image7.png)
-                </div>
+                <img src="media/Display.svg" alt="Display button" class="small-image">
                 <ol class="numbered-list" style="counter-reset: item 1;">
                     <li>Press either</li>
                 </ol>
                 <div class="inline-images">
                     <div>
-                        <div class="image-placeholder small-image">
-                            Button
-                            <br>(media/image9.png)
-                        </div>
+                        <img src="media/Port A.svg" alt="Port A button" class="small-image">
                         <div class="step-text">For Stryker</div>
                     </div>
                     <div style="margin: 0 10px; font-weight: bold;">OR</div>
                     <div>
-                        <div class="image-placeholder small-image">
-                            Button
-                            <br>(media/image11.png)
-                        </div>
+                        <img src="media/Port B.svg" alt="Port B button" class="small-image">
                         <div class="step-text">For Karl Storz</div>
                     </div>
                 </div>
@@ -390,25 +326,16 @@
                 <ol class="numbered-list">
                     <li>On Boom Monitor press</li>
                 </ol>
-                <div class="image-placeholder medium-image">
-                    Menu button
-                    <br>(media/image13.jpg)
-                </div>
+                <img src="media/Menu Symbol.svg" alt="Menu button" class="medium-image">
                 <ol class="numbered-list" style="counter-reset: item 1;">
                     <li>Press</li>
                 </ol>
-                <div class="image-placeholder medium-image">
-                    Navigation button
-                    <br>(media/image14.jpg)
-                </div>
+                <img src="media/Input Symbol.svg" alt="Input navigation button" class="medium-image">
                 <ol class="numbered-list" style="counter-reset: item 2;">
                     <li>Press ▲ or ▼ until SDI is highlighted.</li>
                     <li>Press</li>
                 </ol>
-                <div class="image-placeholder small-image">
-                    Select button
-                    <br>(media/image15.jpg)
-                </div>
+                <img src="media/OK Symbol.svg" alt="OK/Select button" class="small-image">
             </div>
         </div>
         
@@ -420,17 +347,11 @@
                 <ol class="numbered-list">
                     <li>On the nCare monitor, click</li>
                 </ol>
-                <div class="image-placeholder medium-image">
-                    nCare button
-                    <br>(media/image16.png)
-                </div>
+                <img src="media/Capture Icon.svg" alt="Capture/nCare button" class="medium-image">
                 <ol class="numbered-list" style="counter-reset: item 1;">
                     <li>On the next screen, click</li>
                 </ol>
-                <div class="image-placeholder medium-image">
-                    Register button
-                    <br>(media/image18.png)
-                </div>
+                <img src="media/Register New Patient.svg" alt="Register New Patient button" class="medium-image">
             </div>
         </div>
         
@@ -439,15 +360,9 @@
             <div class="content">
                 <h2>Step 8 (continued)</h2>
                 <h3>Fill in the highlighted fields below:</h3>
-                <div class="form-placeholder">
-                    Patient registration form
-                    <br>(media/image20.png)
-                </div>
+                <img src="media/New Patient Information.svg" alt="Patient registration form" class="large-image">
                 <div class="step-text">Click</div>
-                <div class="image-placeholder medium-image">
-                    Submit/Save button
-                    <br>(media/image22.png)
-                </div>
+                <img src="media/Register Now.svg" alt="Register Now button" class="medium-image">
             </div>
         </div>
         
@@ -471,15 +386,18 @@
             <div class="content">
                 <h2>Step 10</h2>
                 <h3>Printing Images</h3>
-                <div class="step-text">When ready, click <div class="image-placeholder small-image" style="display: inline-block; width: 60px; height: 40px; margin: 0 5px; vertical-align: middle;">Print icon<br>(media/image24.png)</div> in the lower right corner of the screen.</div>
+                <div class="step-text">
+                    When ready, click 
+                    <span class="inline-print">
+                        <img src="media/Print Icon.svg" alt="Print icon" style="height: 30px; width: auto; margin: 0 2px;">
+                    </span>
+                    in the lower right corner of the screen.
+                </div>
                 <ul class="bullet-list">
                     <li>Choose the destination printer. The default printer is Liberty OR1. If you need to change the printer to Liberty OR4, click the dropdown box to select a different printer.</li>
                     <li>Please only select Liberty Printers</li>
                 </ul>
-                <div class="image-placeholder medium-image">
-                    Printer selection dialog
-                    <br>(media/image26.png)
-                </div>
+                <img src="media/Printer List.svg" alt="Printer selection dialog" class="medium-image">
             </div>
         </div>
     </div>
